@@ -4,9 +4,14 @@ const { features } = require("process");
 
 // const { title, motivation, why, problemSolved, learned } = obj
 
-const generateHTML = ({ title, motivation, why, problemSolved, learned, installation, usage, collaborators, thirdParty, tutorials, license, features, contribute, tests }) =>
+const generateHTML = ({ title, gitHub, email, motivation, why, problemSolved, learned, installation, usage, collaborators, thirdParty, tutorials, license, features, contribute, tests }) =>
     `# ${title}
-    
+${gitHub}
+${email}
+
+## Table Of Contents
+Description(#Description)
+
 ## Description
 -${motivation}
 -${why}
@@ -46,6 +51,16 @@ inquirer
         },
         {
             type: `input`,
+            name: `gitHub`,
+            message: `What is your GitHub Username?`
+        },
+        {
+            type: `input`,
+            name: `email`,
+            message: `What is your email?`
+        },
+        {
+            type: `input`,
             name: `motivation`,
             message: `What was your motivation?`
         },
@@ -72,7 +87,7 @@ inquirer
         {
             type: `input`,
             name: `usage`,
-            message: `What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.`
+            message: `Provide instructions and examples for use. Include screenshots as needed.`
         },
         {
             type: `input`,
