@@ -10,7 +10,10 @@ ${gitHub}
 ${email}
 
 ## Table Of Contents
-Description(#Description)
+- [Description](#Description)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
 
 ## Description
 -${motivation}
@@ -66,7 +69,7 @@ inquirer
         },
         {
             type: `input`,
-            name: `why`,
+            name: `why`, 
             message: `Why did you build this?`
         },
         {

@@ -1,26 +1,29 @@
-# a
-a
-a
+# README Generator
+Jsrra
+J@J.com
 
 ## Table Of Contents
-Description(#Description)
+- [Description](#Description)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
 
 ## Description
--a
--a
--a
--a
+-Ease the process of creating a README
+-To easily have a proffesional README everytime
+-Having to spend time thinking about what to write in your README, simply answer the questions
+-I learned how to better use node and dependencies
 
 ## Installation
-a
+Clone the repo and npm i to get the dependencies then in the terminal use node index
 
 ## Usage
-a
+Answer prompted questions and you will be generated a README.md
 
 ## Credits 
-a
-a
-a
+n/a
+n/a
+n/a
 
 ## License
 None
@@ -29,8 +32,8 @@ None
 undefined
 
 ## How to Contribute
-a
+n/a
 
 ## Tests
-a
+n/a
  
